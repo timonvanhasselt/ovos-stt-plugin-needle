@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ovos-stt-plugin-needle",
-    version="1.0.1",
+    version="1.1.0",
     description="Offline STT plugin for OVOS using Cactus Needle Whistle model",
     author="Your Name",
     license="Apache 2.0",
@@ -10,8 +10,6 @@ setup(
     install_requires=[
         "ovos-plugin-manager>=0.0.1",
         "cactus-needle",
-        "huggingface-hub",
-        "numpy",
     ],
     entry_points={
         "opm.stt": [
