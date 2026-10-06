@@ -26,12 +26,8 @@ Add the following configuration to your OVOS STT settings:
 ```json
 {
   "stt": {
-    "module": "ovos-stt-plugin-needle",
-    "ovos-stt-plugin-needle": {
-      "model": "cactus-compute/whistle",
-      "device": "cpu"
+    "module": "ovos-stt-plugin-needle"
     }
-  }
 }
 ```
 
